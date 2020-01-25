@@ -1,0 +1,164 @@
+body{
+
+}
+.navbar{
+  background: linear-gradient(to left, #360484, #DD1DB3);
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.2);
+}
+
+.nav-link{
+  font-family: 'Poppins' , sans-serif;
+  font-weight: 500;
+  color: #ffffff !important;
+  margin-right: 20px;
+}
+
+.logo{
+  height: 20px;
+  width: 200px;
+}
+.gambar{
+  margin-right: 5px;
+
+}
+
+.navbar-nav .nav-item.tombol-nav .nav-link{
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
+    box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
+    background: -webkit-gradient(linear, right top, left top, from(#2e19a7), to(#ae0ee9));
+    background: linear-gradient(to left, #2e19a7, #ae0ee9);
+    border-radius: 25px;
+    padding: 5px 34px;
+    background-size: 100% auto
+}
+.navbar-nav .nav-item.tombol-nav .nav-link:after {
+    border: 0;
+}
+
+.navbar-nav .nav-item.tombol-nav .nav-link:hover {
+    background-size: 200% auto
+}
+
+.tombol-nav {
+  text-align: center;
+
+}
+
+.h3{
+  color: #FFFF !important ;
+}
+
+.jumbo-satu{
+  background: linear-gradient(to left, #360484, #DD1DB3);
+  box-shadow: 0px 8px 30px 0px rgba(0, 0, 0, 0.3);
+}
+
+
+.display-4{
+  text-align: left;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 40px;
+  margin-top: 70px;
+  font-weight: 600;
+}
+
+.bg{
+  margin-top: -120px;
+ height: 400px;
+}
+
+.tombol{
+  background: linear-gradient(to left, #360484, #DD1DB3);
+  border-color: linear-gradient(to left, #360484, #DD1DB3);
+  text-transform: uppercase;
+  border-radius: 25px;
+  color: white;
+  border-width: 2px;
+  box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
+  margin-top: 30px;
+}
+
+.tombol:after{
+  border: 0;
+  border-color: white;
+}
+
+.tombol:hover {
+  color: white;
+  background-size: 300% auto
+
+}
+
+/*about*/
+.jumbo-dua {
+  margin-top: -80px;
+  background-image: url(../img/bg3.png);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  min-height: 1400px;
+  background-position: 1100px -90px;
+}
+.kme{
+  margin-top: -40px;
+}
+
+.kme span{
+  font-weight: 600;
+}
+.konten{
+  margin-top: 20px ;
+  font-family: Montserrat;
+  font-weight: 500;
+}
+
+/*panel*/
+.info-panel{
+  box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+  border-radius: 12px;
+  margin-top: -100px;
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.info-panel h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.info-panel p{
+  font-size: 14px;
+  color: #ACACAC;
+  margin-top: -5px;
+  font-weight: 200;
+}
+
+
+/*DEKSTOP*/
+@media (min-width: 992px) { 
+
+.nav-link{
+ text-transform: uppercase;
+}
+
+
+ }
+
+/*mobile*/
+
+ @media (max-width: 576px) { 
+
+ .logo{
+  height: 15px;
+  width: 140px;
+}
+
+
+  }
+
+}
