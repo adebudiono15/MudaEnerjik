@@ -22,6 +22,10 @@ body{
 
 }
 
+.bg-1{
+  height: 350px;
+}
+
 .navbar-nav .nav-item.tombol-nav .nav-link{
     -webkit-box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
@@ -50,7 +54,7 @@ body{
 
 .jumbo-satu{
   background: linear-gradient(to left, #360484, #DD1DB3);
-  box-shadow: 0px 8px 30px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 8px 30px 0px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -63,9 +67,13 @@ body{
   font-weight: 600;
 }
 
-.bg{
-  margin-top: -120px;
- height: 400px;
+.span-1{
+   text-align: left;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 20px;
+  margin-top: 70px;
+  font-weight: 600;
 }
 
 .tombol{
@@ -79,7 +87,14 @@ body{
   margin-top: 30px;
 }
 
-.tombol:after{
+.tombol-card{
+  background: linear-gradient(to left, #360484, #DD1DB3);
+  border-color: linear-gradient(to left, #360484, #DD1DB3);
+  text-transform: uppercase;
+  border-radius: 25px;
+  color: white;
+  border-width: 2px;
+  box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
   border: 0;
   border-color: white;
 }
@@ -114,13 +129,13 @@ body{
 
 /*panel*/
 .info-panel{
+  font-family: Montserrat;
   box-shadow: 0 3px 20px rgba(0,0,0,0.5);
   border-radius: 12px;
-  margin-top: -100px;
   background-color: white;
-  padding: 30px;
+  padding: 10px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 
@@ -132,11 +147,103 @@ body{
 }
 
 .info-panel p{
-  font-size: 14px;
-  color: #ACACAC;
-  margin-top: -5px;
+
+  font-size: 12px;
+  color: #505B76;
+  margin-top: 20px;
   font-weight: 200;
 }
+
+.gambar-logo{
+  margin-top: -120px;
+}
+
+.jumbo-tiga {
+  background-image: url(../img/bg-samping3.png);
+  background-repeat: no-repeat;
+  min-height: 900px;
+  margin-top: 120px;
+  margin-left: -100px;
+}
+
+.bg4 {
+  height: 300px;
+}
+
+.container .display-5 {
+   text-align: left;
+  color: black;
+  font-family: Montserrat;
+  font-size: 40px;
+  margin-top: 70px;
+  font-weight: 600;
+}
+
+.container .p-jumbo3{
+  font-size: 14px;
+}
+
+.bg5 {
+  height: 200px;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
+.jumbo-enam{
+  background: linear-gradient(to left, #360484, #DD1DB3);
+  box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+  margin-top: -100px;
+}
+
+.container .display-6 {
+   text-align: left;
+  color: white;
+  font-family: Montserrat;
+  font-size: 40px;
+  margin-top: 70px;
+  font-weight: 600;
+  margin-top: -50px;
+}
+
+.card{
+  margin-top: 50px;
+  box-shadow: 0 3px 20px rgba(0,0,0,0.6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*DEKSTOP*/
