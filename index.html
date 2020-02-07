@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" id="home">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     crossorigin="anonymous">
+    <link rel="stylesheet" href="css/icofont/icofont.min.css">
     <!-- font -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600&display=swap" rel="stylesheet">
@@ -18,36 +19,35 @@
     <title>Karya Muda Enerjik</title>
   </head>
   <body>
-
     <!-- navbar -->
       <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="container-fluid">
-       <a class="navbar-brand" href="#">
+        <div class="container">
+       <a class="navbar-brand page-scroll" href="#home">
            <img src="img/logo_kme.png" class="d-inline-block align-center logo" alt="">
          </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class=""><img src="img/toogle.png" alt=""></span>
+          <span class=""><i class="icofont-navigation-menu text-white"></i></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+              <a class="nav-link page-scroll" href="#home">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Profil</a>
+              <a class="nav-link page-scroll" href="#profil">Profil</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Produk</a>
+              <a class="nav-link page-scroll" href="#produk">Produk</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Klien</a>
+              <a class="nav-link page-scroll" href="#klien">Klien</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Artikel</a>
+              <a class="nav-link page-scroll" href="#artikel">Artikel</a>
             </li>
             <li class="nav-item">
               <li class="nav-item">
-              <a class="nav-link" href="#">Karir</a>
+              <a class="nav-link page-scroll" href="#karir">Karir</a>
             </li>
             <li class="nav-item tombol-nav">
               <a class="nav-link" href="#">Hubungi Kami</a>
@@ -59,7 +59,7 @@
     <!-- L.Nav -->
 
     <!-- Jumbo -->
-      <div class="jumbotron jumbotron-fluid jumbo-satu" >
+      <div class="jumbotron jumbotron-fluid jumbo-satu" id="about" >
         <div class="container-fluid ">
           <div class="row">
             <div class="col-lg">
@@ -67,7 +67,7 @@
               <span class="span-1">Bersama Kami pasti Bisa...!</span>
            </div>
 
-            <div class="col-lg justify-content-end d-flex">
+            <div class="col-lg ">
                 <img src="img/z.png" alt="" class="bg-1">
             </div>
           </div>
@@ -80,23 +80,23 @@
      
         <div class="jumbotron jumbotron-fluid jumbo-dua">
           <div class="container-fluid">
-            <div class="row kme">
+            <div class="row kme justify-content-center d-flex">
               
-                  <div class="col-lg-12 justify-content-center d-flex info-panel">
+                  <div class="col-lg-10 info-panel">
                     <div class="row">
-                               <div class="col-lg-3">
+                               <div class="col-lg-4">
                                  <img src="img/conten1.png" alt="Employee" class="float-center">
                                  <h4>GARANSI</h4>
                                  <p>Produk kami menggunakan komponen-komponen terbaik dunia. Sehingga kami memberikan Garansi untuk setiap produknya, dengan adanya Garansi yang kami berikan anda akan tetap merasa tenang dan  nyaman.</p>
                                </div>
 
-                               <div class="col-lg">
+                               <div class="col-lg-4">
                                  <img src="img/conten2.png" alt="High Res" class="float-center">
                                  <h4>BERKUALITAS</h4>
                                  <p>Kami menjual barang/jasa berkualitas, guna memenuhi keinginan anda.</p>
                                </div>
 
-                               <div class="col-lg">
+                               <div class="col-lg-4">
                                  <img src="img/conten3.png" alt="Security" class="float-center">
                                  <h4>SOLUTION</h4>
                                  <p>Kami dengan Line Up produk terlengkap, mencakup setiap kebutuhan dan solusi keamanan anda mulai dari sarana Pendidikan, Entertaiment, Transportasi publik, Bank, Hotel, Rumah tinggal dan masih banyak lain-nya.</p>
@@ -106,7 +106,7 @@
             </div>
         </div>
 
-        <div class="jumbotron jumbotron-fluid bg-transparent jumbo-tiga">
+        <div class="jumbotron jumbotron-fluid bg-transparent jumbo-tiga " id="profil">
           <div class="container-fluid">
             <div class="col-lg-12 justify-content-center d-flex gambar-logo">
                 <img src="img/1.png" alt="">
