@@ -30,8 +30,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link page-scroll" href="#home">Home<span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+              <a class="nav-link active page-scroll" href="#home">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link page-scroll" href="#profil">Profil</a>
@@ -59,7 +59,7 @@
     <!-- L.Nav -->
 
     <!-- Jumbo -->
-      <div class="jumbotron jumbotron-fluid jumbo-satu" id="about" >
+      <div class="jumbotron jumbotron-fluid jumbo-satu" id="home">
         <div class="container-fluid ">
           <div class="row">
             <div class="col-lg">
@@ -78,7 +78,7 @@
 
     <!-- profil -->
      
-        <div class="jumbotron jumbotron-fluid jumbo-dua">
+        <div class="jumbotron jumbotron-fluid jumbo-dua" id="jumbo-dua" data-scroll-index="1">
           <div class="container-fluid">
             <div class="row kme justify-content-center d-flex">
               
@@ -109,13 +109,13 @@
         <div class="jumbotron jumbotron-fluid bg-transparent jumbo-tiga " id="profil">
           <div class="container-fluid">
             <div class="col-lg-12 justify-content-center d-flex gambar-logo">
-                <img src="img/1.png" alt="">
+                <img src="img/1.png" alt="" class="logo_atas">
               </div>
               <div class="col-lg justify-content-center d-flex bg-jumbo3">
                 <img src="img/bg4.png"  alt="" class="bg4">
               </div>
             <h1 class="display-5">Karya Muda Enerjik</h1>
-            <p class="p-jumbo3">Kami merupakan sekumpulan pemuda yang sudah cukup lama berkumpul sejak tahun 2012, yang mencoba memulai usaha di bidang produksi & perdagangan, namun masih dalam skala kecil & home industri. Zaman yang semakin berkembang dari waktu ke waktu, menuntut kami untuk lebih inovatif, lebih kreatif, & lebih responsif untuk menyikapi persaingan bisnis yang kompetitif, mencari core bisnis yang menjadi trend dan dibutuhkan masyarakat di era modern ini. <br></p>
+            <p class="p-jumbo3">Zaman yang semakin berkembang dari waktu ke waktu, menuntut kami untuk lebih inovatif, lebih kreatif, & lebih responsif untuk menyikapi persaingan bisnis yang kompetitif, mencari core bisnis yang menjadi trend dan dibutuhkan masyarakat di era modern ini.  Di era yang sudah serba mudah ini, pergerakan perubahan zaman yang sangat dinamis, melahirkan banyak inovasi – inovasi di segala bidang, misal di bidang industri, perdagangan, terlebih lagi di bidang teknologi & sistem informasi, yang banyak sekali manfaatnya bagi kehidupan masyarakat untuk memudahkan segala kegiatan & pekerjaan. Terlihat dengan banyaknya bermunculan perusahaan – perusahaan startup yang memiliki produk – produk platform aplikasi berbasis website dan android yang sangat bermanfaat di segala bidang, misalnya sebagai media informasi, media komunikasi, bahkan hingga media transaksi, juga sebagai automatisasi suatu pekerjaan. </p>
               </div>
               <div class="col-lg justify-content-end d-flex">
                 <img src="img/bg5.png" alt="" class="bg5">
@@ -125,7 +125,7 @@
     <!-- L.profil -->
 
     <!-- product -->
-        <div class="jumbotron jumbotron-fluid jumbo-enam">
+        <div class="jumbotron jumbotron-fluid jumbo-enam" id="produk">
   <div class="container-fluid">
     <h1 class="display-6">Produk</h1>
       <div class="row justify-content-center d-flex produk_row">
@@ -135,7 +135,7 @@
                     <div class="card-body text-center">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, fugit.</p>
-                      <a href="#" class="nav-link tombol-card">More...</a>
+                      <a href="#" class="btn tombol">More...</a>
                     </div>
                   </div>
               </div>
@@ -146,7 +146,7 @@
                     <div class="card-body text-center">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, fugit.</p>
-                      <a href="#" class="nav-link tombol-card">More...</a>
+                      <a href="#" class="btn tombol">More...</a>
                     </div>
                   </div>
               </div>
@@ -157,7 +157,7 @@
                     <div class="card-body text-center">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, fugit.</p>
-                      <a href="#" class="nav-link tombol-card">More...</a>
+                      <a href="#" class="btn tombol">More...</a>
                     </div>
                   </div>
               </div>
@@ -168,7 +168,7 @@
                     <div class="card-body text-center">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, fugit.</p>
-                      <a href="#" class="nav-link tombol-card">More...</a>
+                      <a href="#" class="btn tombol">More...</a>
                     </div>
                   </div>
               </div>
@@ -179,7 +179,7 @@
     <!-- L.product -->
 
     <!-- klien -->
-        <div class="jumbotron jumbotron-fluid jumbo-tujuh bg-transparent">
+        <div class="jumbotron jumbotron-fluid jumbo-tujuh bg-transparent" id="klien">
                 <div class="container-fluid">
                   <h1 class="display-7">Klien</h1>
                       <div class="row klien justify-content-center d-flex">
@@ -313,8 +313,7 @@
                         <div class="form-group">
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Masukan Pesan"></textarea>
                         </div>
-                        <a href="#" class="nav-link text-center tombol-card">Kirim</a>  
-
+                        <a href="#" class="btn tombol">Kirim</a>
                     </form>     
                 </div>
 
@@ -342,5 +341,6 @@
        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
        <script src="js/script.js"></script>
+
   </body>
 </html>

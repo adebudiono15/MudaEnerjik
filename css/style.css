@@ -1,445 +1,546 @@
-html{
-  position: relative;
-}
+    html{
+    position: relative;
+    }
+    
+    .navbar-nav .nav-link.active:after,
+    .navbar-nav .nav-link       :hover:after {
+    content                     : '';
+    display                     : block;    
+    border-bottom               : 2px dotted #fff;
+    width                       : 50%;
+    margin                      : auto;
+    padding-bottom              : 5px;
+    margin-bottom               : -7px;
+    }
 
-.navbar{
-  background: linear-gradient(to left, #360484, #DD1DB3);
-  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.2);
-}
+    .navbar{
+    background: linear-gradient(to left, #360484, #DD1DB3);
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.2);
+    }
+    
+    .nav-link{
+    font-family   : 'Poppins' , sans-serif;
+    font-weight   : 500;
+    font-size     : 14px;
+    text-transform: uppercase;
+    color         : #ffffff !important;
+    margin-right  : 20px;
+    }
+    
+    .logo_atas{
+        margin-top: 80px;
+    }
 
-.nav-link{
-  font-family: 'Poppins' , sans-serif;
-  font-weight: 500;
-  color: #ffffff !important;
-  margin-right: 20px;
-}
+    .jumbo-tiga .logo_atas{
+        opacity   : 0;
+        transform : translate(0, -40px);
+        transition: .3s;
+    }
 
-.logo{
-  height: 20px;
-  width: 200px;
-}
-.gambar{
-  margin-right: 5px;
+    .jumbo-tiga .logo_atas.muncul{
+        opacity: 1;
+        transform: translate(0,0);
+    }
 
-}
-
-.bg-1{
-  margin-top: 140px;
-  height: 350px;
-}
-
-/*tombol*/
-.navbar-nav .nav-item.tombol-nav .nav-link{
+    .logo{
+    height: 20px;
+    width : 200px;
+    }
+    .gambar{
+    margin-right: 5px;
+    
+    }
+    
+    .bg-1{
+    margin-top: 140px;
+    height    : 350px;
+    }
+    
+    /*tombol*/
+    .navbar-nav .nav-item.tombol-nav .nav-link{
     -webkit-box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
-    box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
-    background: -webkit-gradient(linear, right top, left top, from(#2e19a7), to(#ae0ee9));
-    background: linear-gradient(to left, #2e19a7, #ae0ee9);
-    border-radius: 25px;
-    padding: 5px 34px;
-    background-size: 100% auto
-}
-.navbar-nav .nav-item.tombol-nav .nav-link:after {
+    box-shadow        : 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
+    background        : -webkit-gradient(linear, right top, left top, from(#2e19a7), to(#ae0ee9));
+    background        : linear-gradient(to left, #2e19a7, #ae0ee9);
+    border-radius     : 25px;
+    padding           : 5px 34px;
+    background-size   : 100% auto
+    }
+    
+    .navbar-nav .nav-item.tombol-nav .nav-link:after {
     border: 0;
-}
-
-.navbar-nav .nav-item.tombol-nav .nav-link:hover {
+    }
+    
+    .navbar-nav .nav-item.tombol-nav .nav-link:hover {
     background-size: 200% auto;
-}
+    }
+    
+    .tombol-nav {
+    text-align: center;
+    }
+    
+    .tombol{
+       font-family       : 'Poppins' , sans-serif;
+       font-weight       : 500;
+       color             : #ffffff !important; 
+       -webkit-box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
+       box-shadow        : 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
+       background        : -webkit-gradient(linear, right top, left top, from(#2e19a7), to(#ae0ee9));
+       background        : linear-gradient(to left, #2e19a7, #ae0ee9);
+       border-radius     : 25px;
+       padding           : 10px 50px;
+       background-size   : 100% auto
+    }
 
-.tombol-nav {
-  text-align: center;
-}
+    .tombol:after{
+        border: 0
+    }
 
-.tombol{
-  background: linear-gradient(to left, #360484, #DD1DB3);
-  border-color: linear-gradient(to left, #360484, #DD1DB3);
-  text-transform: uppercase;
-  border-radius: 25px;
-  color: white;
-  border-width: 2px;
-  box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
-  margin-top: 30px;
-}
+    .tombol:hover{
+        background-size: 200% auto
+    }
+    
+    /*L.TOMBOL*/
+    .h3{
+    color: #FFFF !important ;
+    }
+    
+    .jumbo-satu{
+    background: linear-gradient(to left, #360484, #DD1DB3);
+    box-shadow: 0px 8px 30px 0px rgba(0, 0, 0, 0.5);
+    height    : 610px;
+    }
+    
+    .display-4{
+    text-align : left;
+    color      : #ffffff;
+    font-family: Montserrat;
+    font-size  : 40px;
+    margin-top : 70px;
+    font-weight: 600;
+    }
+    
+    .span-1{
+    text-align : left;
+    color      : #ffffff;
+    font-family: Montserrat;
+    font-size  : 20px;
+    margin-top : 70px;
+    font-weight: 600;
+    }
 
-.tombol-card{
-  background: linear-gradient(to left, #360484, #DD1DB3);
-  border-color: linear-gradient(to left, #360484, #DD1DB3);
-  text-transform: uppercase;
-  border-radius: 25px;
-  color: white;
-  border-width: 2px;
-  box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
-  border: 1;
-  border-color: #F4F2F9;
-}
+    .display-4, .span-1{
+    opacity: 0;
+    transform: translate(-50px, 0);
+    transition: 1s;
+    }
+    
+    .bg-1{
+    opacity: 0;
+    transform: translate(50px, 0);
+    transition: 1s;   
+    }
 
-.tombol-card:after{
-  border: 0;
-}
+    .bg-1.muncul{
+    opacity: 1;
+    transform: translate(0,0);    
+    }
+    
+    .display-4.muncul, .span-1.muncul{
+    opacity: 1;
+    transform: translate(0,0);    
+    }
+    
+    /*about*/
+    .jumbo-dua {
+    margin-top         : -80px;
+    background-image   : url(../img/bg3.png);
+    background-repeat  : no-repeat;
+    background-color   : #FFFFFF;
+    min-height         : 1400px;
+    background-position: 1100px -90px;
+    }
 
+     .jumbo-dua .col-lg-4{
+    opacity   : 0;
+    transform : translate(0, -40px);
+    transition: .30s;
+     }
 
-.tombol-card:hover { 
-  background-size: 200% auto;
-}
+     .jumbo-dua .col-lg-4.muncul{
+    opacity: 1;
+    transform: translate(0,0);
+     }
 
-.h3{
-  color: #FFFF !important ;
-}
+    .kme{
+    margin-top: -40px;
+    }
+    
+    .kme span{
+    font-weight: 600;
+    }
+    
+    .konten{
+    margin-top : 20px ;
+    font-family: Montserrat;
+    font-weight: 500;
+    }
+    
+    /*panel*/
+    .info-panel{
+    font-family     : Montserrat;
+    box-shadow      : 0 3px 20px rgba(0,0,0,0.5);
+    border-radius   : 12px;
+    background-color: white;
+    padding         : 10px;
+    text-align      : center;
+    margin-top      : 30px;
+    }
 
-.jumbo-satu{
-  background: linear-gradient(to left, #360484, #DD1DB3);
-  box-shadow: 0px 8px 30px 0px rgba(0, 0, 0, 0.5);
-  height: 610px;
-}
+    .jumbo-tujuh .col-lg{
+        opacity: 0;
+        transform: translate(0, -40px);
+        transition: .30s;
+    }
 
-
-.display-4{
-  text-align: left;
-  color: #ffffff;
-  font-family: Montserrat;
-  font-size: 40px;
-  margin-top: 70px;
-  font-weight: 600;
-}
-
-.span-1{
-   text-align: left;
-  color: #ffffff;
-  font-family: Montserrat;
-  font-size: 20px;
-  margin-top: 70px;
-  font-weight: 600;
-}
-
-
-
-/*about*/
-.jumbo-dua {
-  margin-top: -80px;
-  background-image: url(../img/bg3.png);
-  background-repeat: no-repeat;
-  background-color: #FFFFFF;
-  min-height: 1400px;
-  background-position: 1100px -90px;
-}
-.kme{
-  margin-top: -40px;
-}
-
-.kme span{
-  font-weight: 600;
-}
-.konten{
-  margin-top: 20px ;
-  font-family: Montserrat;
-  font-weight: 500;
-}
-
-/*panel*/
-.info-panel{
-  font-family: Montserrat;
-  box-shadow: 0 3px 20px rgba(0,0,0,0.5);
-  border-radius: 12px;
-  background-color: white;
-  padding: 10px;
-  text-align: center;
-  margin-top: 30px;
-}
-
-
-.info-panel h4 {
-  font-size: 16px;
-  text-transform: uppercase;
-  font-weight: bold;
-  margin-top: 5px;
-}
-
-.info-panel p{
-
-  font-size: 12px;
-  color: #505B76;
-  margin-top: 20px;
-  font-weight: 200;
-}
-
-.gambar-logo{
-  margin-top: -120px;
-}
-
-.jumbo-tiga {
-  background-image: url(../img/bg-samping3.png);
-  background-repeat: no-repeat;
-  min-height: 900px;
-  margin-top: 120px;
-}
-
-.bg4 {
-  height: 300px;
-}
-
-.container .display-5 {
-   text-align: left;
-  color: black;
-  font-family: Montserrat;
-  font-size: 40px;
-  margin-top: 70px;
-  font-weight: 600;
-}
-
-.container .p-jumbo3{
-  font-size: 14px;
-}
-
-.bg5 {
-  height: 200px;
-  margin-top: 120px;
-  margin-right: 20px;
-}
-
-.jumbo-enam{
-  background: linear-gradient(to left, #360484, #DD1DB3);
-  box-shadow: 0 3px 20px rgba(0,0,0,0.5);
-  margin-top: -100px;
-}
-
-.container .display-6 {
-  text-align: left;
-  color: white !important;
-  font-family: Montserrat;
-  font-size: 40px;
-  margin-top: 70px;
-  font-weight: 600;
-  margin-top: -50px;
-}
-
-.card{
-  margin-top: 50px;
-  box-shadow: 0 3px 20px rgba(0,0,0,0.6);
-}
-
-
-.jumbo-tujuh {
-  background-image: url(../img/bg-samping4.png);
-  background-repeat: no-repeat;
-  min-height: 900px;
-  background-position: -400px 0px;
-}
-
-.footer {
-  margin-top: 100px;
-}
-
-.footer p{
-  color: #ACACAC;
-  font-size: 18px;
-}
-
-
-.display-7 {
-  text-align: center;
-  color: black;
-  font-family: Montserrat;
-  font-size: 40px;
-  font-weight: 600;
-  
-}
-
-
-.klien {
-  margin-top: 40px;
-}
-
-.tulisan-faq {
-  color: black;
-  font-family: Montserrat;
-  font-size: 40px;
-  margin-top: 70px;
-  font-weight: 600;
-  margin-top: -500px;
-}
-
-
-#faq-area {
-   margin-top: -500px;
+     .jumbo-tujuh .col-lg.muncul{
+        opacity: 1;
+        transform: translate(0,0);
+     }
+    
+    .info-panel h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+    }
+    
+    .info-panel p{
+    font-size  : 12px;
+    color      : #505B76;
+    margin-top : 20px;
+    font-weight: 200;
+    }
+    
+    .gambar-logo{
+    margin-top: -120px;
+    }
+    
+    .jumbo-tiga {
+    background-image : url(../img/bg-samping3.png);
     background-repeat: no-repeat;
+    min-height       : 900px;
+    margin-top       : 120px;
+    }
+    
+    .bg4 {
+    height: 300px;
+    }
+
+    .jumbo-tiga .bg4{
+        opacity: 0;
+        transition: .7s;
+        transform: translate(0, 40px);
+    }
+
+    .jumbo-tiga .bg4.muncul{
+        opacity: 1;
+        transform: translate(0,0);
+    }
+    
+    .display-5 {
+    text-align : left;
+    color      : black;
+    font-family: Montserrat;
+    font-size  : 40px;
+    margin-top : 70px;
+    font-weight: 600;
+    }
+    
+   .p-jumbo3{
+    color      : black;
+    font-family: Montserrat;
+    font-size: 14px;
+    }
+
+    .jumbo-tiga .display-5, .p-jumbo3{
+        opacity: 0;
+        transition: .9s;
+        transform: translate(50px ,0);
+    }
+    
+    .jumbo-tiga .display-5.muncul, .p-jumbo3.muncul{
+        opacity: 1;
+        transform: translate(0 ,0);
+    }
+
+    .bg5 {
+    height      : 200px;
+    margin-top  : 120px;
+    margin-right: 20px;
+    }
+    
+    .jumbo-enam{
+    background: linear-gradient(to left, #360484, #DD1DB3);
+    box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+    margin-top: -100px;
+    }
+
+    .jumbo-enam .col-lg-3{
+        opacity: 0;
+        transition: 0.30s;
+        transform: translate(0, -40px);
+    }
+
+    .jumbo-enam .col-lg-3.muncul{
+        opacity: 1;
+        transform: translate(0,0);
+    }
+    
+    .display-6 {
+    text-align : left;
+    color      : white !important;
+    font-family: Montserrat;
+    font-size  : 40px;
+    font-weight: 600;
+    margin-top : -20px;
+    }
+    
+    .card{
+    margin-top: 50px;
+    box-shadow: 0 3px 20px rgba(0,0,0,0.6);
+    }
+    
+    
+    .jumbo-tujuh {
+    background-image   : url(../img/bg-samping4.png);
+    background-repeat  : no-repeat;
+    min-height         : 900px;
+    background-position: -400px 0px;
+    }
+    
+    .footer {
+    margin-top: 100px;
+    }
+    
+    .footer p{
+    color    : #ACACAC;
+    font-size: 18px;
+    }
+    
+    .display-7 {
+    text-align : center;
+    color      : black;
+    font-family: Montserrat;
+    font-size  : 40px;
+    font-weight: 600;
+    }
+    
+    .klien {
+    margin-top: 40px;
+    }
+    
+    .tulisan-faq {
+    color      : black;
+    font-family: Montserrat;
+    font-size  : 40px;
+    margin-top : 70px;
+    font-weight: 600;
+    margin-top : -500px;
+    }
+    
+    #faq-area {
+    margin-top         : -500px;
+    background-repeat  : no-repeat;
     background-position: left;
-    background-size: 25% 95%;
-}
-
-
-#faq-area .section-heading p {
+    background-size    : 25% 95%;
+    }
+    
+    #faq-area .section-heading p {
     padding: 0 20px;
-}
-
-.card {
+    }
+    
+    .card {
     margin-bottom: 20px;
     border-radius: 10px;
-    border: 0
-}
-
-.card .card-header {
-    background-color: #fff;
+    border       : 0
+    }
+    
+    .card .card-header {
+    background-color  : #fff;
     -webkit-box-shadow: 0px 0px 15px 0px rgba(52, 69, 199, 0.4);
-    box-shadow: 0px 0px 15px 0px rgba(52, 69, 199, 0.4);
-    border: 0;
-    border-radius: 10px;
-    padding: 0
-}
-
-.card.v-dark .card-header {
+    box-shadow        : 0px 0px 15px 0px rgba(52, 69, 199, 0.4);
+    border            : 0;
+    border-radius     : 10px;
+    padding           : 0
+    }
+    
+    .card.v-dark .card-header {
     background-color: #0084ff;
-}
-
-.card .card-header.active {
+    }
+    
+    .card .card-header.active {
     border-radius: 10px 10px 0 0
-}
-
-.card .card-header.active,
-.card .card-header:hover {
-border-radius: 10px;
+    }
+    
+    .card .card-header.active,
+    .card .card-header:hover {
+    border-radius   : 10px;
     background-image: -webkit-gradient( linear, left top, right top, from(rgb(32, 0, 126)), to(rgb(230, 30, 182)));
     background-image: linear-gradient( 90deg, rgb(32, 0, 126) 0%, rgb(230, 30, 182) 100%);
-
-}
-
-
-.card-body p{
+    
+    }
+    
+    .card-body p{
     color: black;
-}
-
-
-.card-header:hover a{
+    }
+    
+    .card-header:hover a{
     color: white;
-}
-.card-header .tombol-faq{
+    }
+    
+    .card-header .tombol-faq{
     color: black;
-}
-
-.card-header a {
-
-    font-size: 18px;
+    }
+    
+    .card-header a {
+    
+    font-size  : 18px;
     line-height: 28px;
     font-weight: 600;
-    display: block;
-    padding: 20px 30px;
-    position: relative
-}
-
-.tombol-faq:hover {
-  border-radius: 10px;
+    display    : block;
+    padding    : 20px 30px;
+    position   : relative
+    }
+    
+    .tombol-faq:hover {
+    border-radius   : 10px;
     background-image: -webkit-gradient( linear, left top, right top, from(rgb(32, 0, 126)), to(rgb(230, 30, 182)));
     background-image: linear-gradient( 90deg, rgb(32, 0, 126) 0%, rgb(230, 30, 182) 100%);
+    }
+    
+    .tombol-faq {
+    border-radius   : 10px;
+    background-color: #ffffff;
+    }
+    
+    .bg-faq{
+    margin-top: 100px;
+    height    : 250px;
+    }
+    
+    
+    .display-8{
+    text-align : left;
+    color      : black;
+    font-family: Montserrat;
+    font-size  : 40px;
+    margin-top : 70px;
+    font-weight: 600;
+    margin-top : 90px;
+    }
+    
+    .img-contact{
+    height    : 400px;
+    margin-top: 80px;
+    }
+    
+    .form-group{
+    margin-top        : 50px;
+    border-radius     : 10px;
+    background-color  : #fff;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(52, 69, 199, 0.4);
+    box-shadow        : 0px 0px 15px 0px rgba(52, 69, 199, 0.4);
+    border            : 0;
+    border-radius     : 10px;
+    background-image  : -webkit-gradient( linear, left top, right top, from(rgb(32, 0, 126)), to(rgb(230, 30, 182)));
+    background-image  : linear-gradient( 90deg, rgb(32, 0, 126) 0%, rgb(230, 30, 182) 100%);
+    }
+    
+    .footer {
+    
+    height: 10px;
+    }
+    
+    .footer img{
+    height: 35px;
+    }
+    
+    .copyright{
+    font-family: Montserrat;
+    }
+    
+    .bg-2 .col-lg-6{
+        opacity: 0;
+        transform: translate(-80px, 0);
+        transition: .9s;
+    }
+    
+     .bg-2 .col-lg-6.muncul{
+        opacity: 1;
+        transform: translate(0,0);
+    }
 
-}
+    /*responsive*/
+    @media (max-width: 575.98px)  { 
+    
 
-.tombol-faq {
-  border-radius: 10px;
-  background-color: #ffffff;
-}
-
-.bg-faq{
-  margin-top: 100px;
-  height: 250px;
-}
-
-
-.display-8{
-  text-align: left;
-  color: black;
-  font-family: Montserrat;
-  font-size: 40px;
-  margin-top: 70px;
-  font-weight: 600;
-  margin-top: 90px;
-}
-
-.img-contact{
-  height: 400px;
-  margin-top: 80px;
-}
-
-.form-group{
-  margin-top: 50px;
-  border-radius: 10px;
-  background-color: #fff;
-  -webkit-box-shadow: 0px 0px 15px 0px rgba(52, 69, 199, 0.4);
-  box-shadow: 0px 0px 15px 0px rgba(52, 69, 199, 0.4);
-  border: 0;
-  border-radius: 10px;
-  background-image: -webkit-gradient( linear, left top, right top, from(rgb(32, 0, 126)), to(rgb(230, 30, 182)));
-  background-image: linear-gradient( 90deg, rgb(32, 0, 126) 0%, rgb(230, 30, 182) 100%);
-}
-
-.footer {
-  
-  height: 10px;
-}
-
-.footer img{
-  height: 35px;
-}
-
-.copyright{
- font-family: Montserrat;
-
-}
-
-
-/*responsive*/
-@media (max-width: 575.98px)  { 
-
-
-.img-contact{
-  height: 250px;
-  margin-left: -25px;
-  
-}
-
-.display-8{
-  text-align: left;
-  color: black;
-  font-family: Montserrat;
-  font-size: 40px;
-  margin-top: -20px;
-  
-}
-
-.bg-faq{
-  height: 150px;
-  margin-top: -10px;
-}
-
-#faq-area {
-   margin-top: 50px;
-}
-
-.display-7 {
-  margin-top: 50px;
-  
-}
-
-.produk_row{
-  margin-left: 35px;
-}
-
-.bg5 {
-  height: 180px;
-  margin-bottom: 35px;
-}
-
-.bg4 {
-  height: 150px;
-}
-
-.bg-1{
-  margin-top: 60px;
-  height: 200px;
-}
-
-.footer img{
-  height: 20px;
-}
-
-
-
-}
+    .logo_atas{
+        margin-top: 120px;
+    }
+    
+    .img-contact{
+    height     : 250px;
+    margin-left: -25px;
+    }
+    
+    .display-8{
+    text-align : left;
+    color      : black;
+    font-family: Montserrat;
+    font-size  : 40px;
+    margin-top : -20px;
+    }
+    
+    .bg-faq{
+    height    : 150px;
+    margin-top: -10px;
+    }
+    
+    #faq-area {
+    margin-top: 50px;
+    }
+    
+    .display-7 {
+    margin-top: 50px;
+    
+    }
+    
+    .produk_row{
+    margin-left: 35px;
+    }
+    
+    .bg5 {
+    height: 180px;
+    margin-bottom: 35px;
+    }
+    
+    .bg4 {
+    height: 150px;
+    }
+    
+    .bg-1{
+    margin-top: 60px;
+    height    : 200px;
+    }
+    
+    .footer img{
+    height: 20px;
+    }
+    
+    .navbar-nav .nav-link.active:after,
+    .navbar-nav .nav-link:hover:after {
+    border: 0;
+    }
+    
+    }
