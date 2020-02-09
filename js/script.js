@@ -11,6 +11,7 @@ $('.page-scroll').on('click', function(e) {
 });
 
 
+
 // profil
 $(window).on('load', function(){
 	$('.display-4').addClass('muncul');
