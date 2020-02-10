@@ -3,10 +3,10 @@
     }
     
     .navbar-nav .nav-link.active:after,
-    .navbar-nav .nav-links:hover:after{
+    .navbar-nav .nav-link:hover:after{
     content                     : '';
     display                     : block;    
-    border-bottom               : 2px dotted #fff;
+    border-bottom               : 2px dotted #ffffff;
     width                       : 50%;
     margin                      : auto;
     padding-bottom              : 5px;
